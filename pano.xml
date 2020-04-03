@@ -19,12 +19,10 @@
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="" pan="5.83" skinid="ht_egg_1" description="You found an Egg!" tilt="12.72" id="Point01" target="" url=""/>
-      <hotspot title="" pan="-80.15" skinid="ht_egg_2" description="You found an Egg!" tilt="-14.22" id="Point02" target="" url=""/>
-      <hotspot title="Flagpole" pan="-359.74" skinid="ht_info" description="This is an info point. They can be placed anywhere. Just let me know which landmarks should be highlighted and provide me some copy.&#xa;" tilt="26.32" id="Point03" target="_blank" url=""/>
-      <hotspot title="" pan="-122.54" skinid="ht_node" description="" tilt="4.25" id="Point04" target="" url="{node4}"/>
-      <hotspot title="" pan="-203.94" skinid="ht_egg_3" description="You found an Egg!" tilt="-2.88" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-272.78" skinid="ht_egg_4" description="You found an Egg!" tilt="14.2" id="Point05" target="_blank" url=""/>
-      <hotspot title="Flagpole" pan="-204.04" skinid="ht_info" description="This is an info point. They can be placed anywhere. Just let me know which landmarks should be highlighted and provide me some copy.&#xa;" tilt="17.42" id="Point03" target="_blank" url=""/>
+      <hotspot title="" pan="-80.04" skinid="ht_egg_2" description="You found an Egg!" tilt="-14.22" id="Point02" target="" url=""/>
+      <hotspot title="Swing Bridge" pan="-122.54" skinid="ht_node" description="" tilt="4.25" id="Point04" target="" url="{node4}"/>
+      <hotspot title="" pan="-272.73" skinid="ht_egg_3" description="You found an Egg!" tilt="14.18" id="Point02" target="" url=""/>
+      <hotspot title="CAPE WHEEL FUN FACT" pan="-201.65" skinid="ht_egg_4" description="DID YOU KNOW? The Cape Wheel is a giant observation wheel that offers a&#xa;spectacular 360 panoramic view of Cape Town from the vibrant V&amp;A Waterfront precinct.&#xa;&#xa;Your viewing experience across the Mother City includes Table Mountain, Robben Island, Cape Town City skyline, Paarl Mountains, and the Cape Town Stadium. WOW!&#xa;&#xa;The Cape Wheel offers 30 fully enclosed air conditioned cabins that will take you 40 metres above the ground in safety and comfort on the four revolution ride." tilt="6.22" id="Point05" target="_blank" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -54,8 +52,8 @@
       <hotspot title="Clocktower" pan="-43.98" skinid="ht_node" description="" tilt="3.76" id="Point02" target="" url="{node3}"/>
       <hotspot title="" pan="-93.92" skinid="ht_egg_5" description="You found an Egg!" tilt="-4.23" id="Point02" target="" url=""/>
       <hotspot title="" pan="-2.55" skinid="ht_egg_7" description="You found an Egg!" tilt="-0.44" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-275.91" skinid="ht_egg_6" description="You found an Egg!" tilt="-11.79" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-184.37" skinid="ht_egg_8" description="You found an Egg!" tilt="-6.08" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-183.79" skinid="ht_egg_6" description="You found an Egg!" tilt="-6.08" id="Point02" target="" url=""/>
+      <hotspot title="SWING BRIDGE FACT" pan="-24.33" skinid="ht_egg_8" description="DID YOU KNOW? 200 000 visitors make use of our swing bridge on a monthly basis. The bridge was recently replaced and while it remains 42 metres in length, it has DOUBLED in width to 4 meters! Plus, it can operate in wind speeds of up to 60 km an hour. &#xa;Before the first swing bridge was built, a man named David Abdol Wasserfall rowed the penny ferry for 43 years, 6 days a week – that’s an average of 400 crossings a week!&#xa;&#xa;" tilt="36.93" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -86,7 +84,7 @@
       <hotspot title="" pan="-337.09" skinid="ht_egg_10" description="You found an Egg!" tilt="-4.39" id="Point02" target="" url=""/>
       <hotspot title="" pan="-96.75" skinid="ht_egg_9" description="You found an Egg!" tilt="18.14" id="Point02" target="" url=""/>
       <hotspot title="" pan="-268.87" skinid="ht_egg_11" description="You found an Egg!" tilt="12.45" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-264.08" skinid="ht_egg_12" description="You found an Egg!" tilt="6.87" id="Point02" target="" url=""/>
+      <hotspot title="CLOCK TOWER FUN FACT" pan="-264.08" skinid="ht_egg_12" description="DID YOU KNOW? The three-story red Clock Tower with its pointed Gothic windows and handsome clock imported from Edinburgh became a landmark as soon as it was completed in 1882 as the first Port Captain’s office. Over the years the Clock Tower has begun to leans lightly to one side. Today it is about 50mm skew – more or less the width of a cell phone!" tilt="6.87" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -114,10 +112,11 @@
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="Battery Park Top" pan="-179.53" skinid="ht_node" description="" tilt="16.53" id="Point01" target="" url="{node2}"/>
       <hotspot title="Clocktower" pan="-358.94" skinid="ht_node" description="" tilt="1.91" id="Point02" target="" url="{node3}"/>
-      <hotspot title="" pan="-338.75" skinid="ht_egg_15" description="You found an Egg!" tilt="-5.42" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-7.66" skinid="ht_egg_15" description="You found an Egg!" tilt="-8.44" id="Point02" target="" url=""/>
       <hotspot title="" pan="-105.16" skinid="ht_egg_14" description="You found an Egg!" tilt="19.81" id="Point02" target="" url=""/>
       <hotspot title="" pan="-252.79" skinid="ht_egg_13" description="You found an Egg!" tilt="0.57" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-34.39" skinid="ht_egg_16" description="You found an Egg!" tilt="7.84" id="Point02" target="" url=""/>
+      <hotspot title="BATTERY PARK FUN FACT" pan="-338.69" skinid="ht_egg_16" description="DID YOU KNOW?  The colourful and charismatic rhinos on our property are part of an exciting project called The Rhinos are Coming. It is a non profit organisation which spreads awareness and raises funds to protect these beautiful beasts. &#xa;&#xa;&#xa;Artists donate their time and skills to bring to dazzling life the blank white rhino&#xa;sculptures, using colour, design, and imagination. These street art pieces are then put up for adoption, and have attracted owners from far and wide – eager to own such extraordinary exhibits.  &#xa;&#xa;&#xa;So next time you are enchanted by one of these gorgeous characters – spare a thought for rhino conservation and what we can all do to support this incredible cause. &#xa;&#xa;" tilt="-5.41" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-137.36" skinid="ht_egg_13" description="You found an Egg!" tilt="16.28" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -147,7 +146,7 @@
       <hotspot title="" pan="-14.74" skinid="ht_egg_18" description="You found an Egg!" tilt="23.16" id="Point02" target="" url=""/>
       <hotspot title="" pan="-302.15" skinid="ht_egg_19" description="You found an Egg!" tilt="1.88" id="Point02" target="" url=""/>
       <hotspot title="" pan="-152.23" skinid="ht_egg_17" description="You found an Egg!" tilt="2.48" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-65.39" skinid="ht_egg_20" description="You found an Egg!" tilt="22.41" id="Point02" target="" url=""/>
+      <hotspot title="BATTERY PARK FUN FACT" pan="-273" skinid="ht_egg_20" description="DID YOU KNOW?  Battery Park is of archaeological importance as it still contains parts of the historical Amsterdam Battery, one of the oldest structures in Cape Town. What is a battery you ask? A battery is typically a fortified place for heavy guns.&#xa;Now there is a skate park, basket ball courts and a section of lawn where we have movies under the stars during summer months!&#xa;" tilt="-2.68" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
