@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: counter.ggsk
-// Generated 2020-04-03T16:25:01
+// Generated 2020-04-03T16:30:16
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_info_popup', 2, false);
@@ -5210,8 +5210,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image19.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image19.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image19.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image19.style.width='10px';
-					me._ht_info_image19.style.height='10px';
+					me._ht_info_image19.style.width='5px';
+					me._ht_info_image19.style.height='5px';
 					skin.updateSize(me._ht_info_image19);
 				}
 				else {
@@ -5598,8 +5598,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image18.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image18.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image18.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image18.style.width='10px';
-					me._ht_info_image18.style.height='10px';
+					me._ht_info_image18.style.width='5px';
+					me._ht_info_image18.style.height='5px';
 					skin.updateSize(me._ht_info_image18);
 				}
 				else {
@@ -5984,8 +5984,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image17.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image17.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image17.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image17.style.width='10px';
-					me._ht_info_image17.style.height='10px';
+					me._ht_info_image17.style.width='5px';
+					me._ht_info_image17.style.height='5px';
 					skin.updateSize(me._ht_info_image17);
 				}
 				else {
@@ -6338,8 +6338,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image16.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image16.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image16.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image16.style.width='10px';
-					me._ht_info_image16.style.height='10px';
+					me._ht_info_image16.style.width='5px';
+					me._ht_info_image16.style.height='5px';
 					skin.updateSize(me._ht_info_image16);
 				}
 				else {
@@ -6738,8 +6738,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image15.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image15.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image15.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image15.style.width='10px';
-					me._ht_info_image15.style.height='10px';
+					me._ht_info_image15.style.width='5px';
+					me._ht_info_image15.style.height='5px';
 					skin.updateSize(me._ht_info_image15);
 				}
 				else {
@@ -7126,8 +7126,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image14.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image14.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image14.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image14.style.width='10px';
-					me._ht_info_image14.style.height='10px';
+					me._ht_info_image14.style.width='5px';
+					me._ht_info_image14.style.height='5px';
 					skin.updateSize(me._ht_info_image14);
 				}
 				else {
@@ -7512,8 +7512,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image13.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image13.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image13.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image13.style.width='10px';
-					me._ht_info_image13.style.height='10px';
+					me._ht_info_image13.style.width='5px';
+					me._ht_info_image13.style.height='5px';
 					skin.updateSize(me._ht_info_image13);
 				}
 				else {
@@ -7866,8 +7866,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image12.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image12.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image12.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image12.style.width='10px';
-					me._ht_info_image12.style.height='10px';
+					me._ht_info_image12.style.width='5px';
+					me._ht_info_image12.style.height='5px';
 					skin.updateSize(me._ht_info_image12);
 				}
 				else {
@@ -8266,8 +8266,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image11.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image11.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image11.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image11.style.width='10px';
-					me._ht_info_image11.style.height='10px';
+					me._ht_info_image11.style.width='5px';
+					me._ht_info_image11.style.height='5px';
 					skin.updateSize(me._ht_info_image11);
 				}
 				else {
@@ -8654,8 +8654,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image10.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image10.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image10.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image10.style.width='10px';
-					me._ht_info_image10.style.height='10px';
+					me._ht_info_image10.style.width='5px';
+					me._ht_info_image10.style.height='5px';
 					skin.updateSize(me._ht_info_image10);
 				}
 				else {
@@ -9040,8 +9040,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image9.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image9.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image9.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image9.style.width='10px';
-					me._ht_info_image9.style.height='10px';
+					me._ht_info_image9.style.width='5px';
+					me._ht_info_image9.style.height='5px';
 					skin.updateSize(me._ht_info_image9);
 				}
 				else {
@@ -9394,8 +9394,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image8.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image8.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image8.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image8.style.width='10px';
-					me._ht_info_image8.style.height='10px';
+					me._ht_info_image8.style.width='5px';
+					me._ht_info_image8.style.height='5px';
 					skin.updateSize(me._ht_info_image8);
 				}
 				else {
@@ -9794,8 +9794,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image7.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image7.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image7.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image7.style.width='10px';
-					me._ht_info_image7.style.height='10px';
+					me._ht_info_image7.style.width='5px';
+					me._ht_info_image7.style.height='5px';
 					skin.updateSize(me._ht_info_image7);
 				}
 				else {
@@ -10182,8 +10182,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image6.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image6.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image6.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image6.style.width='10px';
-					me._ht_info_image6.style.height='10px';
+					me._ht_info_image6.style.width='5px';
+					me._ht_info_image6.style.height='5px';
 					skin.updateSize(me._ht_info_image6);
 				}
 				else {
@@ -10568,8 +10568,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image5.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image5.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image5.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image5.style.width='10px';
-					me._ht_info_image5.style.height='10px';
+					me._ht_info_image5.style.width='5px';
+					me._ht_info_image5.style.height='5px';
 					skin.updateSize(me._ht_info_image5);
 				}
 				else {
@@ -10922,8 +10922,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image4.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image4.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image4.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image4.style.width='10px';
-					me._ht_info_image4.style.height='10px';
+					me._ht_info_image4.style.width='5px';
+					me._ht_info_image4.style.height='5px';
 					skin.updateSize(me._ht_info_image4);
 				}
 				else {
@@ -11322,8 +11322,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image3.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image3.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image3.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image3.style.width='10px';
-					me._ht_info_image3.style.height='10px';
+					me._ht_info_image3.style.width='5px';
+					me._ht_info_image3.style.height='5px';
 					skin.updateSize(me._ht_info_image3);
 				}
 				else {
@@ -11710,8 +11710,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image2.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image2.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image2.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image2.style.width='10px';
-					me._ht_info_image2.style.height='10px';
+					me._ht_info_image2.style.width='5px';
+					me._ht_info_image2.style.height='5px';
 					skin.updateSize(me._ht_info_image2);
 				}
 				else {
@@ -12096,8 +12096,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image1.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image1.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image1.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image1.style.width='10px';
-					me._ht_info_image1.style.height='10px';
+					me._ht_info_image1.style.width='5px';
+					me._ht_info_image1.style.height='5px';
 					skin.updateSize(me._ht_info_image1);
 				}
 				else {
@@ -12450,8 +12450,8 @@ function pano2vrSkin(player,base) {
 				me._ht_info_image0.ggCurrentLogicStateSize = newLogicStateSize;
 				me._ht_info_image0.style[domTransition]='width 0s, height 0s';
 				if (me._ht_info_image0.ggCurrentLogicStateSize == 0) {
-					me._ht_info_image0.style.width='10px';
-					me._ht_info_image0.style.height='10px';
+					me._ht_info_image0.style.width='5px';
+					me._ht_info_image0.style.height='5px';
 					skin.updateSize(me._ht_info_image0);
 				}
 				else {
