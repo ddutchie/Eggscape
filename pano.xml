@@ -18,12 +18,12 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="" pan="0" skinid="ht_egg_1" description="You found an Egg!" tilt="0.12" id="Point01" target="" url=""/>
-      <hotspot title="" pan="-52.96" skinid="ht_egg_2" description="You found an Egg!" tilt="-16.62" id="Point02" target="" url=""/>
+      <hotspot title="" pan="5.83" skinid="ht_egg_1" description="You found an Egg!" tilt="12.72" id="Point01" target="" url=""/>
+      <hotspot title="" pan="-80.15" skinid="ht_egg_2" description="You found an Egg!" tilt="-14.22" id="Point02" target="" url=""/>
       <hotspot title="Flagpole" pan="-359.74" skinid="ht_info" description="This is an info point. They can be placed anywhere. Just let me know which landmarks should be highlighted and provide me some copy.&#xa;" tilt="26.32" id="Point03" target="_blank" url=""/>
       <hotspot title="" pan="-122.54" skinid="ht_node" description="" tilt="4.25" id="Point04" target="" url="{node4}"/>
-      <hotspot title="" pan="-212.14" skinid="ht_egg_3" description="You found an Egg!" tilt="9.65" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-265.34" skinid="ht_egg_4" description="You found an Egg!" tilt="-3.15" id="Point05" target="_blank" url=""/>
+      <hotspot title="" pan="-203.94" skinid="ht_egg_3" description="You found an Egg!" tilt="-2.88" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-272.78" skinid="ht_egg_4" description="You found an Egg!" tilt="14.2" id="Point05" target="_blank" url=""/>
       <hotspot title="Flagpole" pan="-204.04" skinid="ht_info" description="This is an info point. They can be placed anywhere. Just let me know which landmarks should be highlighted and provide me some copy.&#xa;" tilt="17.42" id="Point03" target="_blank" url=""/>
     </hotspots>
     <media/>
@@ -52,10 +52,10 @@
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="Flagpole" pan="-218.8" skinid="ht_node" description="" tilt="4.43" id="Point01" target="" url="{node1}"/>
       <hotspot title="Clocktower" pan="-43.98" skinid="ht_node" description="" tilt="3.76" id="Point02" target="" url="{node3}"/>
-      <hotspot title="" pan="-134.37" skinid="ht_egg_5" description="You found an Egg!" tilt="2.73" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-4.55" skinid="ht_egg_7" description="You found an Egg!" tilt="0.19" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-263.75" skinid="ht_egg_6" description="You found an Egg!" tilt="-16.69" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-182.38" skinid="ht_egg_8" description="You found an Egg!" tilt="-4.92" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-93.92" skinid="ht_egg_5" description="You found an Egg!" tilt="-4.23" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-2.55" skinid="ht_egg_7" description="You found an Egg!" tilt="-0.44" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-275.91" skinid="ht_egg_6" description="You found an Egg!" tilt="-11.79" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-184.37" skinid="ht_egg_8" description="You found an Egg!" tilt="-6.08" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -83,10 +83,10 @@
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="" pan="-204.51" skinid="ht_node" description="" tilt="3.87" id="Point01" target="" url="{node4}"/>
       <hotspot title="Battery Park Bottom" pan="-30.29" skinid="ht_node" description="" tilt="5.53" id="Point02" target="" url="{node5}"/>
-      <hotspot title="" pan="-333.57" skinid="ht_egg_10" description="You found an Egg!" tilt="2.02" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-73.6" skinid="ht_egg_9" description="You found an Egg!" tilt="0.17" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-263.08" skinid="ht_egg_11" description="You found an Egg!" tilt="53.67" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-239.3" skinid="ht_egg_12" description="You found an Egg!" tilt="-0.78" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-337.09" skinid="ht_egg_10" description="You found an Egg!" tilt="-4.39" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-96.75" skinid="ht_egg_9" description="You found an Egg!" tilt="18.14" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-268.87" skinid="ht_egg_11" description="You found an Egg!" tilt="12.45" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-264.08" skinid="ht_egg_12" description="You found an Egg!" tilt="6.87" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -114,10 +114,10 @@
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="Battery Park Top" pan="-179.53" skinid="ht_node" description="" tilt="16.53" id="Point01" target="" url="{node2}"/>
       <hotspot title="Clocktower" pan="-358.94" skinid="ht_node" description="" tilt="1.91" id="Point02" target="" url="{node3}"/>
-      <hotspot title="" pan="-324.13" skinid="ht_egg_15" description="You found an Egg!" tilt="9.24" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-80.25" skinid="ht_egg_14" description="You found an Egg!" tilt="3.45" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-193.99" skinid="ht_egg_13" description="You found an Egg!" tilt="9.53" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-244.46" skinid="ht_egg_16" description="You found an Egg!" tilt="21.54" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-338.75" skinid="ht_egg_15" description="You found an Egg!" tilt="-5.42" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-105.16" skinid="ht_egg_14" description="You found an Egg!" tilt="19.81" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-252.79" skinid="ht_egg_13" description="You found an Egg!" tilt="0.57" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-34.39" skinid="ht_egg_16" description="You found an Egg!" tilt="7.84" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
@@ -144,9 +144,9 @@
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="Battery Park Bottom" pan="-211.37" skinid="ht_node" description="" tilt="-13.7" id="Point01" target="" url="{node5}"/>
-      <hotspot title="" pan="-15.32" skinid="ht_egg_18" description="You found an Egg!" tilt="5.88" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-302.93" skinid="ht_egg_19" description="You found an Egg!" tilt="-11.86" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-156.45" skinid="ht_egg_17" description="You found an Egg!" tilt="-0.72" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-14.74" skinid="ht_egg_18" description="You found an Egg!" tilt="23.16" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-302.15" skinid="ht_egg_19" description="You found an Egg!" tilt="1.88" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-152.23" skinid="ht_egg_17" description="You found an Egg!" tilt="2.48" id="Point02" target="" url=""/>
       <hotspot title="" pan="-65.39" skinid="ht_egg_20" description="You found an Egg!" tilt="22.41" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
