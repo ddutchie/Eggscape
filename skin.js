@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: counter.ggsk
-// Generated 2020-04-03T15:31:13
+// Generated 2020-04-03T15:35:58
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_info_popup', 2, false);
@@ -888,6 +888,32 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._button_next_previous.logicBlock_size = function() {
+			var newLogicStateSize;
+			if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStateSize = 0;
+			}
+			else {
+				newLogicStateSize = -1;
+			}
+			if (me._button_next_previous.ggCurrentLogicStateSize != newLogicStateSize) {
+				me._button_next_previous.ggCurrentLogicStateSize = newLogicStateSize;
+				me._button_next_previous.style[domTransition]='width 0s, height 0s';
+				if (me._button_next_previous.ggCurrentLogicStateSize == 0) {
+					me._button_next_previous.style.width='220px';
+					me._button_next_previous.style.height='32px';
+					skin.updateSize(me._button_next_previous);
+				}
+				else {
+					me._button_next_previous.style.width='440px';
+					me._button_next_previous.style.height='32px';
+					skin.updateSize(me._button_next_previous);
+				}
+			}
+		}
 		me._button_next_previous.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
 				useTransition = false;
@@ -1148,8 +1174,8 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
-		hs+='left : 402px;';
 		hs+='position : absolute;';
+		hs+='right : 0px;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
@@ -2310,7 +2336,6 @@ function pano2vrSkin(player,base) {
 		hs+='top:  0px;';
 		hs+='width: 100%;';
 		hs+='height: auto;';
-		hs+='background: #ffffff;';
 		hs+='border: 1px solid #ffffff;';
 		hs+='border-radius: 1px;';
 		hs+=cssPrefix + 'border-radius: 1px;';
@@ -12202,6 +12227,7 @@ function pano2vrSkin(player,base) {
 	me._alleggsfound.logicBlock_visible();
 	me._information.logicBlock_size();
 	me._eggfound.logicBlock_size();
+	me._button_next_previous.logicBlock_size();
 	me._tt_pano_prev.logicBlock_position();
 	me._tt_pano_next0.logicBlock_position();
 	me._tt_pano_next.logicBlock_position();
@@ -12209,7 +12235,7 @@ function pano2vrSkin(player,base) {
 	me._text_2.logicBlock_text();
 	me._alleggsfound.logicBlock_size();
 	player.addListener('changenode', function(args) { me._screentint_info.logicBlock_visible();me._information.logicBlock_visible();me._eggfound.logicBlock_visible();me._visible_counters.logicBlock_visible();me._count_status.logicBlock_text();me._resetcounter.logicBlock_visible();me._start.logicBlock_visible();me._alleggsfound.logicBlock_visible(); });
-	player.addListener('configloaded', function(args) { me._information.logicBlock_size();me._eggfound.logicBlock_size();me._tt_pano_prev.logicBlock_position();me._tt_pano_next0.logicBlock_position();me._tt_pano_next.logicBlock_position();me._start.logicBlock_size();me._text_2.logicBlock_text();me._alleggsfound.logicBlock_size(); });
+	player.addListener('configloaded', function(args) { me._information.logicBlock_size();me._eggfound.logicBlock_size();me._button_next_previous.logicBlock_size();me._tt_pano_prev.logicBlock_position();me._tt_pano_next0.logicBlock_position();me._tt_pano_next.logicBlock_position();me._start.logicBlock_size();me._text_2.logicBlock_text();me._alleggsfound.logicBlock_size(); });
 	player.addListener('varchanged_vis_info_popup', function(args) { me._screentint_info.logicBlock_visible();me._information.logicBlock_visible(); });
 	player.addListener('varchanged_vis_egg_popup', function(args) { me._eggfound.logicBlock_visible(); });
 	player.addListener('varchanged_my_total_count', function(args) { me._count_status.logicBlock_text();me._resetcounter.logicBlock_visible();me._alleggsfound.logicBlock_visible(); });
