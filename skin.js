@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: counter.ggsk
-// Generated 2020-04-03T15:46:54
+// Generated 2020-04-03T15:53:00
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_info_popup', 2, false);
@@ -277,7 +277,7 @@ function pano2vrSkin(player,base) {
 				me._information.style[domTransition]='width 0s, height 0s';
 				if (me._information.ggCurrentLogicStateSize == 0) {
 					me._information.style.width='300px';
-					me._information.style.height='150px';
+					me._information.style.height='200px';
 					skin.updateSize(me._information);
 				}
 				else {
