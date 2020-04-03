@@ -146,7 +146,7 @@
       <hotspot title="Battery Park Bottom" pan="-211.37" skinid="ht_node" description="" tilt="-13.7" id="Point01" target="" url="{node5}"/>
       <hotspot title="" pan="-15.32" skinid="ht_egg_18" description="You found an Egg!" tilt="5.88" id="Point02" target="" url=""/>
       <hotspot title="" pan="-302.93" skinid="ht_egg_19" description="You found an Egg!" tilt="-11.86" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-156.49" skinid="ht_egg_17" description="You found an Egg!" tilt="-0.63" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-156.45" skinid="ht_egg_17" description="You found an Egg!" tilt="-0.72" id="Point02" target="" url=""/>
       <hotspot title="" pan="-65.39" skinid="ht_egg_20" description="You found an Egg!" tilt="22.41" id="Point02" target="" url=""/>
     </hotspots>
     <media/>
