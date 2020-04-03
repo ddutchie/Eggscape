@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour apprev="17841" start="node1" appversion="6.1.0">
-  <panorama id="node1">
+  <panorama hideabout="1" id="node1">
     <input leveltilesize="510" levelingpitch="0" overlap="1" height="2048" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
       <level predecode="0" height="2048" preload="0" width="2048"/>
       <level predecode="0" height="1024" preload="0" width="1024"/>
@@ -14,7 +14,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata comment="" title="" nodeid="node1" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <userdata comment="" title="" nodeid="node1" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid="flagpole"/>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
@@ -29,9 +29,11 @@
     <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+    </control>
   </panorama>
-  <panorama id="node4">
+  <panorama hideabout="1" id="node4">
     <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
       <level predecode="0" height="1024" preload="0" width="1024"/>
       <level predecode="0" height="512" preload="0" width="512"/>
@@ -44,7 +46,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata comment="" title="" nodeid="node4" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <userdata comment="" title="" nodeid="node4" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid="bridge"/>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
@@ -60,9 +62,11 @@
     <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+    </control>
   </panorama>
-  <panorama id="node3">
+  <panorama hideabout="1" id="node3">
     <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
       <level predecode="0" height="1024" preload="0" width="1024"/>
       <level predecode="0" height="512" preload="0" width="512"/>
@@ -75,7 +79,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata comment="" title="" nodeid="node3" source="" latitude="" longitude="" description="" datetime="2020/04/01 12:01" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <userdata comment="" title="" nodeid="node3" source="" latitude="" longitude="" description="" datetime="2020/04/01 12:01" tags="sunrise" copyright="" author="" info="" customnodeid="clocktower"/>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
@@ -91,9 +95,43 @@
     <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+    </control>
   </panorama>
-  <panorama id="node5">
+  <panorama hideabout="1" id="node2">
+    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
+      <level predecode="0" height="1024" preload="0" width="1024"/>
+      <level predecode="0" height="512" preload="0" width="512"/>
+      <level predecode="1" height="256" preload="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="350" fovmode="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+    </view>
+    <userdata comment="" title="" nodeid="node2" source="" latitude="-8.580427" longitude="119.505157" description="" datetime="" tags="Equi|MarineDeck|sunrise" copyright="" author="" info="" customnodeid="battery2"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot title="Battery Park Bottom" pan="-211.37" skinid="ht_node" description="" tilt="-13.7" id="Point01" target="" url="{node5}"/>
+      <hotspot title="" pan="-14.74" skinid="ht_egg_18" description="You found an Egg!" tilt="23.16" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-302.15" skinid="ht_egg_19" description="You found an Egg!" tilt="1.88" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-152.23" skinid="ht_egg_17" description="You found an Egg!" tilt="2.48" id="Point02" target="" url=""/>
+      <hotspot title="BATTERY PARK FUN FACT" pan="-273" skinid="ht_egg_20" description="DID YOU KNOW?  Battery Park is of archaeological importance as it still contains parts of the historical Amsterdam Battery, one of the oldest structures in Cape Town. What is a battery you ask? A battery is typically a fortified place for heavy guns.&#xa;Now there is a skate park, basket ball courts and a section of lawn where we have movies under the stars during summer months!&#xa;" tilt="-2.68" id="Point02" target="" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
+    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node5">
     <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
       <level predecode="0" height="1024" preload="0" width="1024"/>
       <level predecode="0" height="512" preload="0" width="512"/>
@@ -106,7 +144,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata comment="" title="" nodeid="node5" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <userdata comment="" title="" nodeid="node5" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid="battery1"/>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
@@ -123,37 +161,9 @@
     <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
-  </panorama>
-  <panorama id="node2">
-    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
-      <level predecode="0" height="1024" preload="0" width="1024"/>
-      <level predecode="0" height="512" preload="0" width="512"/>
-      <level predecode="1" height="256" preload="1" width="256"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="350" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
-    </view>
-    <userdata comment="" title="" nodeid="node2" source="" latitude="-8.580427" longitude="119.505157" description="" datetime="" tags="Equi|MarineDeck|sunrise" copyright="" author="" info="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Battery Park Bottom" pan="-211.37" skinid="ht_node" description="" tilt="-13.7" id="Point01" target="" url="{node5}"/>
-      <hotspot title="" pan="-14.74" skinid="ht_egg_18" description="You found an Egg!" tilt="23.16" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-302.15" skinid="ht_egg_19" description="You found an Egg!" tilt="1.88" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-152.23" skinid="ht_egg_17" description="You found an Egg!" tilt="2.48" id="Point02" target="" url=""/>
-      <hotspot title="BATTERY PARK FUN FACT" pan="-273" skinid="ht_egg_20" description="DID YOU KNOW?  Battery Park is of archaeological importance as it still contains parts of the historical Amsterdam Battery, one of the oldest structures in Cape Town. What is a battery you ask? A battery is typically a fortified place for heavy guns.&#xa;Now there is a skate park, basket ball courts and a section of lawn where we have movies under the stars during summer months!&#xa;" tilt="-2.68" id="Point02" target="" url=""/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
-    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+    </control>
   </panorama>
   <masternode>
     <userdata comment="" title="" nodeid="master" source="" latitude="" longitude="" description="" datetime="" tags="" copyright="" author="" info="" customnodeid=""/>
