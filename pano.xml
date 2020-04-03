@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17841" start="node1" appversion="6.1.0">
+  <panorama id="node1">
+    <input leveltilesize="510" levelingpitch="0" overlap="1" height="2048" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level predecode="0" height="2048" preload="0" width="2048"/>
+      <level predecode="0" height="1024" preload="0" width="1024"/>
+      <level predecode="0" height="512" preload="0" width="512"/>
+      <level predecode="1" height="256" preload="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+    </view>
+    <userdata comment="" title="" nodeid="node1" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot title="" pan="0" skinid="ht_egg_1" description="You found an Egg!" tilt="0.12" id="Point01" target="" url=""/>
+      <hotspot title="" pan="-52.96" skinid="ht_egg_2" description="You found an Egg!" tilt="-16.62" id="Point02" target="" url=""/>
+      <hotspot title="Flagpole" pan="-359.74" skinid="ht_info" description="This is an info point. They can be placed anywhere. Just let me know which landmarks should be highlighted and provide me some copy.&#xa;" tilt="26.32" id="Point03" target="_blank" url=""/>
+      <hotspot title="" pan="-122.54" skinid="ht_node" description="" tilt="4.25" id="Point04" target="" url="{node4}"/>
+      <hotspot title="" pan="-212.14" skinid="ht_egg_3" description="You found an Egg!" tilt="9.65" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-265.34" skinid="ht_egg_4" description="You found an Egg!" tilt="-3.15" id="Point05" target="_blank" url=""/>
+      <hotspot title="Flagpole" pan="-204.04" skinid="ht_info" description="This is an info point. They can be placed anywhere. Just let me know which landmarks should be highlighted and provide me some copy.&#xa;" tilt="17.42" id="Point03" target="_blank" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
+    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node4">
+    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
+      <level predecode="0" height="1024" preload="0" width="1024"/>
+      <level predecode="0" height="512" preload="0" width="512"/>
+      <level predecode="1" height="256" preload="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+    </view>
+    <userdata comment="" title="" nodeid="node4" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot title="Flagpole" pan="-218.8" skinid="ht_node" description="" tilt="4.43" id="Point01" target="" url="{node1}"/>
+      <hotspot title="Clocktower" pan="-43.98" skinid="ht_node" description="" tilt="3.76" id="Point02" target="" url="{node3}"/>
+      <hotspot title="" pan="-134.37" skinid="ht_egg_5" description="You found an Egg!" tilt="2.73" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-4.55" skinid="ht_egg_7" description="You found an Egg!" tilt="0.19" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-263.75" skinid="ht_egg_6" description="You found an Egg!" tilt="-16.69" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-182.38" skinid="ht_egg_8" description="You found an Egg!" tilt="-4.92" id="Point02" target="" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
+    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
+      <level predecode="0" height="1024" preload="0" width="1024"/>
+      <level predecode="0" height="512" preload="0" width="512"/>
+      <level predecode="1" height="256" preload="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+    </view>
+    <userdata comment="" title="" nodeid="node3" source="" latitude="" longitude="" description="" datetime="2020/04/01 12:01" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot title="" pan="-204.51" skinid="ht_node" description="" tilt="3.87" id="Point01" target="" url="{node4}"/>
+      <hotspot title="Battery Park Bottom" pan="-30.29" skinid="ht_node" description="" tilt="5.53" id="Point02" target="" url="{node5}"/>
+      <hotspot title="" pan="-333.57" skinid="ht_egg_10" description="You found an Egg!" tilt="2.02" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-73.6" skinid="ht_egg_9" description="You found an Egg!" tilt="0.17" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-263.08" skinid="ht_egg_11" description="You found an Egg!" tilt="53.67" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-239.3" skinid="ht_egg_12" description="You found an Egg!" tilt="-0.78" id="Point02" target="" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
+    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5">
+    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
+      <level predecode="0" height="1024" preload="0" width="1024"/>
+      <level predecode="0" height="512" preload="0" width="512"/>
+      <level predecode="1" height="256" preload="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+    </view>
+    <userdata comment="" title="" nodeid="node5" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot title="Battery Park Top" pan="-179.53" skinid="ht_node" description="" tilt="16.53" id="Point01" target="" url="{node2}"/>
+      <hotspot title="Clocktower" pan="-358.94" skinid="ht_node" description="" tilt="1.91" id="Point02" target="" url="{node3}"/>
+      <hotspot title="" pan="-324.13" skinid="ht_egg_15" description="You found an Egg!" tilt="9.24" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-80.25" skinid="ht_egg_14" description="You found an Egg!" tilt="3.45" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-193.99" skinid="ht_egg_13" description="You found an Egg!" tilt="9.53" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-244.46" skinid="ht_egg_16" description="You found an Egg!" tilt="21.54" id="Point02" target="" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
+    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
+      <level predecode="0" height="1024" preload="0" width="1024"/>
+      <level predecode="0" height="512" preload="0" width="512"/>
+      <level predecode="1" height="256" preload="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="350" fovmode="0">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+    </view>
+    <userdata comment="" title="" nodeid="node2" source="" latitude="-8.580427" longitude="119.505157" description="" datetime="" tags="Equi|MarineDeck|sunrise" copyright="" author="" info="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot title="Battery Park Bottom" pan="-211.37" skinid="ht_node" description="" tilt="-13.7" id="Point01" target="" url="{node5}"/>
+      <hotspot title="" pan="-15.32" skinid="ht_egg_18" description="You found an Egg!" tilt="5.88" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-302.93" skinid="ht_egg_19" description="You found an Egg!" tilt="-11.86" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-156.49" skinid="ht_egg_17" description="You found an Egg!" tilt="-0.63" id="Point02" target="" url=""/>
+      <hotspot title="" pan="-65.39" skinid="ht_egg_20" description="You found an Egg!" tilt="22.41" id="Point02" target="" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
+    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8"/>
+  </panorama>
+  <masternode>
+    <userdata comment="" title="" nodeid="master" source="" latitude="" longitude="" description="" datetime="" tags="" copyright="" author="" info="" customnodeid=""/>
+  </masternode>
+</tour>
