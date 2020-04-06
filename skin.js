@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: counter.ggsk
-// Generated 2020-04-06T10:53:01
+// Generated 2020-04-06T18:14:13
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_info_popup', 2, false);
@@ -1782,17 +1782,15 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="count_status";
-		el.ggDx=0;
-		el.ggDy=-11;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
 		hs+='height : 29px;';
-		hs+='left : -10000px;';
+		hs+='left : 5px;';
 		hs+='position : absolute;';
-		hs+='top : -10000px;';
+		hs+='top : 5px;';
 		hs+='visibility : inherit;';
 		hs+='width : 371px;';
 		hs+='pointer-events:auto;';
@@ -1910,20 +1908,6 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._count_status0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 0;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
 		}
 		me._rectangle_3.appendChild(me._count_status0);
 		me._visible_counters.appendChild(me._rectangle_3);
@@ -2464,19 +2448,18 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="count_status";
-		el.ggDx=0;
-		el.ggDy=18;
+		el.ggDy=20;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 29px;';
-		hs+='left : -10000px;';
+		hs+='height : 44px;';
+		hs+='left : 5px;';
 		hs+='position : absolute;';
 		hs+='top : -10000px;';
 		hs+='visibility : hidden;';
-		hs+='width : 371px;';
+		hs+='width : 499px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -2485,19 +2468,19 @@ function pano2vrSkin(player,base) {
 		hs+='cursor: default;';
 		hs+='left: 0px;';
 		hs+='top:  0px;';
-		hs+='width: auto;';
+		hs+='width: 499px;';
 		hs+='height: auto;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 20px;';
+		hs+='font-size: 14px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
-		hs+='white-space: nowrap;';
+		hs+='white-space: pre-wrap;';
 		hs+='padding: 2px 3px 2px 3px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me._count_status.ggUpdateText=function() {
-			var hs="You have found all eggs at "+me.ggUserdata.title+".";
+			var hs="You have found all the eggs at "+me.ggUserdata.title+".<br\/>Click the eye icon to go to the next location.";
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -2642,11 +2625,11 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				else if (me._count_status.ggCurrentLogicStateText == 1) {
-					me._count_status.ggText="You have viewed all the hotspots";
+					me._count_status.ggText="";
 					me._count_status__text.innerHTML=me._count_status.ggText;
 					if (me._count_status.ggUpdateText) {
 					me._count_status.ggUpdateText=function() {
-						var hs="You have viewed all the hotspots";
+						var hs="";
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -2658,11 +2641,11 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				else {
-					me._count_status.ggText="You have found all eggs at "+me.ggUserdata.title+".";
+					me._count_status.ggText="You have found all the eggs at "+me.ggUserdata.title+".\nClick the eye icon to go to the next location.";
 					me._count_status__text.innerHTML=me._count_status.ggText;
 					if (me._count_status.ggUpdateText) {
 					me._count_status.ggUpdateText=function() {
-						var hs="You have found all eggs at "+me.ggUserdata.title+".";
+						var hs="You have found all the eggs at "+me.ggUserdata.title+".\nClick the eye icon to go to the next location.";
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -2683,9 +2666,6 @@ function pano2vrSkin(player,base) {
 				this.style[domTransition]='none';
 			}
 			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 0;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 				var ph=this.parentNode.clientHeight;
 				var h=this.offsetHeight;
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
@@ -3197,7 +3177,7 @@ function pano2vrSkin(player,base) {
 		el.ggDy=2;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
+		el.className="ggskin ggskin_text info";
 		el.ggType='text';
 		hs ='';
 		hs+='height : 81.5789%;';
@@ -3620,28 +3600,28 @@ function pano2vrSkin(player,base) {
 		el.ggTextDiv=els;
 		el.ggId="Text 1";
 		el.ggDx=0;
-		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 35px;';
+		hs+='bottom : 1px;';
+		hs+='height : 33px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : -10000px;';
 		hs+='visibility : inherit;';
 		hs+='width : 194px;';
 		hs+='pointer-events:none;';
+		hs+='info';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		hs ='position:absolute;';
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
 		hs+='left: 0px;';
-		hs+='top:  0px;';
+		hs+='bottom:  0px;';
 		hs+='width: 194px;';
-		hs+='height: 35px;';
+		hs+='height: 33px;';
 		hs+='pointer-events: none;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: #000000;';
@@ -3649,7 +3629,7 @@ function pano2vrSkin(player,base) {
 		hs+='font-weight: inherit;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 0px 1px 0px 1px;';
+		hs+='padding: 4px 1px 4px 1px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		els.innerHTML="Enter Lucky Draw";
@@ -3677,9 +3657,6 @@ function pano2vrSkin(player,base) {
 				var pw=this.parentNode.clientWidth;
 				var w=this.offsetWidth + 0;
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
 		me._rectangle_1.appendChild(me._text_1);
@@ -3693,7 +3670,7 @@ function pano2vrSkin(player,base) {
 		el.ggDy=2;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
+		el.className="ggskin ggskin_text info";
 		el.ggType='text';
 		hs ='';
 		hs+='height : 44px;';
@@ -6870,7 +6847,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_5', player.getVariableValue('my_count_5') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_5.ondblclick=function (e) {
@@ -7160,7 +7137,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_6', player.getVariableValue('my_count_6') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_6.ondblclick=function (e) {
@@ -7438,7 +7415,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_7', player.getVariableValue('my_count_7') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_7.ondblclick=function (e) {
@@ -7706,7 +7683,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_8', player.getVariableValue('my_count_8') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_8.ondblclick=function (e) {
@@ -7950,7 +7927,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_9', player.getVariableValue('my_count_9') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_9.ondblclick=function (e) {
@@ -8240,7 +8217,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_10', player.getVariableValue('my_count_10') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_10.ondblclick=function (e) {
@@ -8518,7 +8495,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_11', player.getVariableValue('my_count_11') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_11.ondblclick=function (e) {
@@ -8786,7 +8763,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_12', player.getVariableValue('my_count_12') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_12.ondblclick=function (e) {
@@ -9030,7 +9007,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_13', player.getVariableValue('my_count_13') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_13.ondblclick=function (e) {
@@ -9320,7 +9297,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_14', player.getVariableValue('my_count_14') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_14.ondblclick=function (e) {
@@ -9598,7 +9575,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_15', player.getVariableValue('my_count_15') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_15.ondblclick=function (e) {
@@ -9866,7 +9843,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_16', player.getVariableValue('my_count_16') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_16.ondblclick=function (e) {
@@ -10110,7 +10087,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_17', player.getVariableValue('my_count_17') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_17.ondblclick=function (e) {
@@ -10400,7 +10377,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_18', player.getVariableValue('my_count_18') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_18.ondblclick=function (e) {
@@ -10678,7 +10655,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_19', player.getVariableValue('my_count_19') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_19.ondblclick=function (e) {
@@ -10946,7 +10923,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.setVariableValue('my_count_20', player.getVariableValue('my_count_20') + Number("1"));
 			}
-				player.playSound("337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01","0");
+				player.playSound("coinCollect","1");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_egg_20.ondblclick=function (e) {
@@ -11767,7 +11744,7 @@ function pano2vrSkin(player,base) {
 	me.addSkin();
 	var style = document.createElement('style');
 	style.type = 'text/css';
-	style.appendChild(document.createTextNode('.ggskin { font-family:Gill Sans,Gill Sans MT,Calibria,sans-serif; font-size: 14px;}'));
+	style.appendChild(document.createTextNode('.ggskin { font-family: Gill-Sans ,sans-serif; font-size: 14px;} @font-face {font-family: "Gill-Sans"; src: url(gillsans.woff);} .info{ font-family: Gill-Sans; }'));
 	document.head.appendChild(style);
 	me._screentint_eggfound.logicBlock_visible();
 	me._screentint_info.logicBlock_visible();
