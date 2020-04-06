@@ -1,170 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17841" start="node1" appversion="6.1.0">
+<tour start="node1" appversion="6.1.0" apprev="17841">
   <panorama hideabout="1" id="node1">
-    <input leveltilesize="510" levelingpitch="0" overlap="1" height="2048" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
-      <level predecode="0" height="2048" preload="0" width="2048"/>
-      <level predecode="0" height="1024" preload="0" width="1024"/>
-      <level predecode="0" height="512" preload="0" width="512"/>
-      <level predecode="1" height="256" preload="1" width="256"/>
-      <preview color="0x808080" strip="1"/>
+    <input overlap="1" height="2048" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level preload="0" height="2048" width="2048" predecode="0"/>
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
     </view>
-    <userdata comment="" title="the Flagpole" nodeid="node1" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid="flagpole"/>
+    <userdata author="" title="the Flagpole" source="" datetime="" tags="sunrise" comment="" description="" longitude="" nodeid="node1" customnodeid="flagpole" info="" copyright="" latitude=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="" pan="5.83" skinid="ht_egg_1" description="You found an Egg!" tilt="12.72" id="Point01" target="" url=""/>
-      <hotspot title="" pan="-80.04" skinid="ht_egg_2" description="You found an Egg!" tilt="-14.22" id="Point02" target="" url=""/>
-      <hotspot title="Swing Bridge" pan="-122.53" skinid="ht_node" description="" tilt="4.25" id="Point04" target="" url="{node4}"/>
-      <hotspot title="" pan="-272.73" skinid="ht_egg_3" description="You found an Egg!" tilt="14.18" id="Point02" target="" url=""/>
-      <hotspot title="CAPE WHEEL FUN FACT" pan="-201.65" skinid="ht_egg_4" description="DID YOU KNOW? The Cape Wheel is a giant observation wheel that offers a&#xa;spectacular 360 panoramic view of Cape Town from the vibrant V&amp;A Waterfront precinct.&#xa;&#xa;Your viewing experience across the Mother City includes Table Mountain, Robben Island, Cape Town City skyline, Paarl Mountains, and the Cape Town Stadium. WOW!&#xa;&#xa;The Cape Wheel offers 30 fully enclosed air conditioned cabins that will take you 40 metres above the ground in safety and comfort on the four revolution ride." tilt="6.22" id="Point05" target="_blank" url=""/>
+      <label textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" height="20" borderalpha="1" borderradius="1" border="1" wordwrap="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="" pan="5.83" id="Point01" skinid="ht_egg_1" tilt="12.72" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-80.04" id="Point02" skinid="ht_egg_2" tilt="-14.22" target="" description="You found an Egg!" url=""/>
+      <hotspot title="Swing Bridge" pan="-122.53" id="Point04" skinid="ht_node" tilt="4.25" target="" description="" url="{node4}"/>
+      <hotspot title="" pan="-272.73" id="Point02" skinid="ht_egg_3" tilt="14.18" target="" description="You found an Egg!" url=""/>
+      <hotspot title="CAPE WHEEL FUN FACT" pan="-201.65" id="Point05" skinid="ht_egg_4" tilt="6.22" target="_blank" description="DID YOU KNOW? The Cape Wheel is a giant observation wheel that offers a&#xa;spectacular 360 panoramic view of Cape Town from the vibrant V&amp;A Waterfront precinct.&#xa;&#xa;Your viewing experience across the Mother City includes Table Mountain, Robben Island, Cape Town City skyline, Paarl Mountains, and the Cape Town Stadium. WOW!&#xa;&#xa;The Cape Wheel offers 30 fully enclosed air conditioned cabins that will take you 40 metres above the ground in safety and comfort on the four revolution ride." url=""/>
     </hotspots>
-    <media/>
-    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
-    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <media>
+      <sound level="0.800" loop="-1" id="coinCollect" mode="0" keep="1" url="media/skin_snd_coinCollect.mp3"/>
+    </media>
+    <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
       <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node4">
-    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
-      <level predecode="0" height="1024" preload="0" width="1024"/>
-      <level predecode="0" height="512" preload="0" width="512"/>
-      <level predecode="1" height="256" preload="1" width="256"/>
-      <preview color="0x808080" strip="1"/>
+    <input overlap="1" height="1024" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
     </view>
-    <userdata comment="" title="the Swing Bridge" nodeid="node4" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid="bridge"/>
+    <userdata author="" title="the Swing Bridge" source="" datetime="" tags="sunrise" comment="" description="" longitude="" nodeid="node4" customnodeid="bridge" info="" copyright="" latitude=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Flagpole" pan="-218.8" skinid="ht_node" description="" tilt="4.43" id="Point01" target="" url="{node1}"/>
-      <hotspot title="Clock Tower" pan="-44.05" skinid="ht_node" description="" tilt="3.78" id="Point02" target="" url="{node3}"/>
-      <hotspot title="" pan="-93.92" skinid="ht_egg_5" description="You found an Egg!" tilt="-4.23" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-2.55" skinid="ht_egg_7" description="You found an Egg!" tilt="-0.44" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-183.79" skinid="ht_egg_6" description="You found an Egg!" tilt="-6.08" id="Point02" target="" url=""/>
-      <hotspot title="SWING BRIDGE FACT" pan="-24.33" skinid="ht_egg_8" description="DID YOU KNOW? 200 000 visitors make use of our swing bridge on a monthly basis. The bridge was recently replaced and while it remains 42 metres in length, it has DOUBLED in width to 4 meters! Plus, it can operate in wind speeds of up to 60 km an hour. &#xa;Before the first swing bridge was built, a man named David Abdol Wasserfall rowed the penny ferry for 43 years, 6 days a week – that’s an average of 400 crossings a week!&#xa;&#xa;" tilt="36.93" id="Point02" target="" url=""/>
+      <label textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" height="20" borderalpha="1" borderradius="1" border="1" wordwrap="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="Flagpole" pan="-218.8" id="Point01" skinid="ht_node" tilt="4.43" target="" description="" url="{node1}"/>
+      <hotspot title="Clock Tower" pan="-44.05" id="Point02" skinid="ht_node" tilt="3.78" target="" description="" url="{node3}"/>
+      <hotspot title="" pan="-93.92" id="Point02" skinid="ht_egg_5" tilt="-4.23" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-2.55" id="Point02" skinid="ht_egg_7" tilt="-0.44" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-183.79" id="Point02" skinid="ht_egg_6" tilt="-6.08" target="" description="You found an Egg!" url=""/>
+      <hotspot title="SWING BRIDGE FACT" pan="-24.33" id="Point02" skinid="ht_egg_8" tilt="36.93" target="" description="DID YOU KNOW? 200 000 visitors make use of our swing bridge on a monthly basis. The bridge was recently replaced and while it remains 42 metres in length, it has DOUBLED in width to 4 meters! Plus, it can operate in wind speeds of up to 60 km an hour. &#xa;Before the first swing bridge was built, a man named David Abdol Wasserfall rowed the penny ferry for 43 years, 6 days a week – that’s an average of 400 crossings a week!&#xa;&#xa;" url=""/>
     </hotspots>
-    <media/>
-    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
-    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <media>
+      <sound level="0.800" loop="-1" id="coinCollect" mode="0" keep="1" url="media/skin_snd_coinCollect.mp3"/>
+    </media>
+    <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
       <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node3">
-    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
-      <level predecode="0" height="1024" preload="0" width="1024"/>
-      <level predecode="0" height="512" preload="0" width="512"/>
-      <level predecode="1" height="256" preload="1" width="256"/>
-      <preview color="0x808080" strip="1"/>
+    <input overlap="1" height="1024" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
     </view>
-    <userdata comment="" title="Clock Tower" nodeid="node3" source="" latitude="" longitude="" description="" datetime="2020/04/01 12:01" tags="sunrise" copyright="" author="" info="" customnodeid="clocktower"/>
+    <userdata author="" title="Clock Tower" source="" datetime="2020/04/01 12:01" tags="sunrise" comment="" description="" longitude="" nodeid="node3" customnodeid="clocktower" info="" copyright="" latitude=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Swing Bridge" pan="-204.51" skinid="ht_node" description="" tilt="3.87" id="Point01" target="" url="{node4}"/>
-      <hotspot title="Battery Park Bottom" pan="-30.29" skinid="ht_node" description="" tilt="5.53" id="Point02" target="" url="{node5}"/>
-      <hotspot title="" pan="-337.09" skinid="ht_egg_10" description="You found an Egg!" tilt="-4.39" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-96.75" skinid="ht_egg_9" description="You found an Egg!" tilt="18.14" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-268.87" skinid="ht_egg_11" description="You found an Egg!" tilt="12.45" id="Point02" target="" url=""/>
-      <hotspot title="CLOCK TOWER FUN FACT" pan="-264.08" skinid="ht_egg_12" description="DID YOU KNOW? The three-story red Clock Tower with its pointed Gothic windows and handsome clock imported from Edinburgh became a landmark as soon as it was completed in 1882 as the first Port Captain’s office. Over the years the Clock Tower has begun to leans lightly to one side. Today it is about 50mm skew – more or less the width of a cell phone!" tilt="6.87" id="Point02" target="" url=""/>
+      <label textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" height="20" borderalpha="1" borderradius="1" border="1" wordwrap="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="Swing Bridge" pan="-204.51" id="Point01" skinid="ht_node" tilt="3.87" target="" description="" url="{node4}"/>
+      <hotspot title="Battery Park Canal" pan="-30.29" id="Point02" skinid="ht_node" tilt="5.53" target="" description="" url="{node5}"/>
+      <hotspot title="" pan="-337.09" id="Point02" skinid="ht_egg_10" tilt="-4.39" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-96.75" id="Point02" skinid="ht_egg_9" tilt="18.14" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-268.87" id="Point02" skinid="ht_egg_11" tilt="12.45" target="" description="You found an Egg!" url=""/>
+      <hotspot title="CLOCK TOWER FUN FACT" pan="-264.08" id="Point02" skinid="ht_egg_12" tilt="6.87" target="" description="DID YOU KNOW? The three-story red Clock Tower with its pointed Gothic windows and handsome clock imported from Edinburgh became a landmark as soon as it was completed in 1882 as the first Port Captain’s office. Over the years the Clock Tower has begun to leans lightly to one side. Today it is about 50mm skew – more or less the width of a cell phone!" url=""/>
     </hotspots>
-    <media/>
-    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
-    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <media>
+      <sound level="0.800" loop="-1" id="coinCollect" mode="0" keep="1" url="media/skin_snd_coinCollect.mp3"/>
+    </media>
+    <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
       <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node5">
-    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
-      <level predecode="0" height="1024" preload="0" width="1024"/>
-      <level predecode="0" height="512" preload="0" width="512"/>
-      <level predecode="1" height="256" preload="1" width="256"/>
-      <preview color="0x808080" strip="1"/>
+    <input overlap="1" height="1024" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
     </view>
-    <userdata comment="" title="Battery Park bottom" nodeid="node5" source="" latitude="" longitude="" description="" datetime="" tags="sunrise" copyright="" author="" info="" customnodeid="battery1"/>
+    <userdata author="" title="Battery Park Canal" source="" datetime="" tags="sunrise" comment="" description="" longitude="" nodeid="node5" customnodeid="battery1" info="" copyright="" latitude=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Battery Park Top" pan="-179.53" skinid="ht_node" description="" tilt="16.53" id="Point01" target="" url="{node2}"/>
-      <hotspot title="Clocktower" pan="-358.94" skinid="ht_node" description="" tilt="1.91" id="Point02" target="" url="{node3}"/>
-      <hotspot title="" pan="-34.39" skinid="ht_egg_15" description="You found an Egg!" tilt="-1.76" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-105.16" skinid="ht_egg_14" description="You found an Egg!" tilt="19.81" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-252.81" skinid="ht_egg_13" description="You found an Egg!" tilt="0.57" id="Point02" target="" url=""/>
-      <hotspot title="BATTERY PARK FUN FACT" pan="-338.69" skinid="ht_egg_16" description="DID YOU KNOW?  The colourful and charismatic rhinos on our property are part of an exciting project called The Rhinos are Coming. It is a non profit organisation which spreads awareness and raises funds to protect these beautiful beasts. &#xa;&#xa;&#xa;Artists donate their time and skills to bring to dazzling life the blank white rhino&#xa;sculptures, using colour, design, and imagination. These street art pieces are then put up for adoption, and have attracted owners from far and wide – eager to own such extraordinary exhibits.  &#xa;&#xa;&#xa;So next time you are enchanted by one of these gorgeous characters – spare a thought for rhino conservation and what we can all do to support this incredible cause. &#xa;&#xa;" tilt="-5.41" id="Point02" target="" url=""/>
+      <label textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" height="20" borderalpha="1" borderradius="1" border="1" wordwrap="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="Battery Park" pan="-179.53" id="Point01" skinid="ht_node" tilt="16.53" target="" description="" url="{node2}"/>
+      <hotspot title="Clocktower" pan="-358.94" id="Point02" skinid="ht_node" tilt="1.91" target="" description="" url="{node3}"/>
+      <hotspot title="" pan="-34.39" id="Point02" skinid="ht_egg_15" tilt="-1.76" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-105.16" id="Point02" skinid="ht_egg_14" tilt="19.81" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-252.81" id="Point02" skinid="ht_egg_13" tilt="0.57" target="" description="You found an Egg!" url=""/>
+      <hotspot title="BATTERY PARK FUN FACT" pan="-338.69" id="Point02" skinid="ht_egg_16" tilt="-5.41" target="" description="DID YOU KNOW?  The colourful and charismatic rhinos on our property are part of an exciting project called The Rhinos are Coming. It is a non profit organisation which spreads awareness and raises funds to protect these beautiful beasts. &#xa;&#xa;&#xa;Artists donate their time and skills to bring to dazzling life the blank white rhino&#xa;sculptures, using colour, design, and imagination. These street art pieces are then put up for adoption, and have attracted owners from far and wide – eager to own such extraordinary exhibits.  &#xa;&#xa;&#xa;So next time you are enchanted by one of these gorgeous characters – spare a thought for rhino conservation and what we can all do to support this incredible cause. &#xa;&#xa;" url=""/>
     </hotspots>
-    <media/>
-    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
-    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <media>
+      <sound level="0.800" loop="-1" id="coinCollect" mode="0" keep="1" url="media/skin_snd_coinCollect.mp3"/>
+    </media>
+    <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
       <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node2">
-    <input leveltilesize="510" levelingpitch="0" overlap="1" height="1024" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1024">
-      <level predecode="0" height="1024" preload="0" width="1024"/>
-      <level predecode="0" height="512" preload="0" width="512"/>
-      <level predecode="1" height="256" preload="1" width="256"/>
-      <preview color="0x808080" strip="1"/>
+    <input overlap="1" height="1024" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="350" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
     </view>
-    <userdata comment="" title="Battery Park top" nodeid="node2" source="" latitude="-8.580427" longitude="119.505157" description="" datetime="" tags="Equi|MarineDeck|sunrise" copyright="" author="" info="" customnodeid="battery2"/>
+    <userdata author="" title="Battery Park" source="" datetime="" tags="Equi|MarineDeck|sunrise" comment="" description="" longitude="119.505157" nodeid="node2" customnodeid="battery2" info="" copyright="" latitude="-8.580427"/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" height="20" backgroundalpha="1" enabled="1" wordwrap="1" borderalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Battery Park Bottom" pan="-211.37" skinid="ht_node" description="" tilt="-13.7" id="Point01" target="" url="{node5}"/>
-      <hotspot title="" pan="-14.74" skinid="ht_egg_18" description="You found an Egg!" tilt="23.16" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-302.15" skinid="ht_egg_19" description="You found an Egg!" tilt="1.88" id="Point02" target="" url=""/>
-      <hotspot title="" pan="-152.23" skinid="ht_egg_17" description="You found an Egg!" tilt="2.48" id="Point02" target="" url=""/>
-      <hotspot title="BATTERY PARK FUN FACT" pan="-273" skinid="ht_egg_20" description="DID YOU KNOW?  Battery Park is of archaeological importance as it still contains parts of the historical Amsterdam Battery, one of the oldest structures in Cape Town. What is a battery you ask? A battery is typically a fortified place for heavy guns.&#xa;Now there is a skate park, basket ball courts and a section of lawn where we have movies under the stars during summer months!&#xa;" tilt="-2.68" id="Point02" target="" url=""/>
+      <label textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" height="20" borderalpha="1" borderradius="1" border="1" wordwrap="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="Battery Park Canal" pan="-211.37" id="Point01" skinid="ht_node" tilt="-13.7" target="" description="" url="{node5}"/>
+      <hotspot title="" pan="-14.74" id="Point02" skinid="ht_egg_18" tilt="23.16" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-302.15" id="Point02" skinid="ht_egg_19" tilt="1.88" target="" description="You found an Egg!" url=""/>
+      <hotspot title="" pan="-152.23" id="Point02" skinid="ht_egg_17" tilt="2.48" target="" description="You found an Egg!" url=""/>
+      <hotspot title="BATTERY PARK FUN FACT" pan="-273" id="Point02" skinid="ht_egg_20" tilt="-2.68" target="" description="DID YOU KNOW?  Battery Park is of archaeological importance as it still contains parts of the historical Amsterdam Battery, one of the oldest structures in Cape Town. What is a battery you ask? A battery is typically a fortified place for heavy guns.&#xa;Now there is a skate park, basket ball courts and a section of lawn where we have movies under the stars during summer months!&#xa;" url=""/>
     </hotspots>
-    <media/>
-    <transition zoomin="0" blendcolor="0x000000" blendtime="1" zoomfov="20" softedge="0" zoomout="0" enabled="1" zoomspeed="2" type="irisroundcenter" zoomoutpause="1"/>
-    <autorotate noderandom="1" startloaded="0" nodedelay="0.00" returntohorizon="0.000" enabled="1" speed="0.100" nodefilter="" delay="5.00" useanimation="0"/>
+    <media>
+      <sound level="0.800" loop="-1" id="coinCollect" mode="0" keep="1" url="media/skin_snd_coinCollect.mp3"/>
+    </media>
+    <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" hideabout="1" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8">
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
       <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <masternode>
-    <userdata comment="" title="" nodeid="master" source="" latitude="" longitude="" description="" datetime="" tags="" copyright="" author="" info="" customnodeid=""/>
+    <userdata author="" title="" source="" datetime="" tags="" comment="" description="" longitude="" nodeid="master" customnodeid="" info="" copyright="" latitude=""/>
   </masternode>
 </tour>
