@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1" appversion="6.1.0" apprev="17841">
   <panorama hideabout="1" id="node1">
-    <input overlap="1" height="2048" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" height="2048" width="2048" predecode="0"/>
+    <input overlap="1" height="1024" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level preload="0" height="1024" width="1024" predecode="0"/>
       <level preload="0" height="512" width="512" predecode="0"/>
       <level preload="1" height="256" width="256" predecode="1"/>
@@ -29,10 +28,9 @@
     </media>
     <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
     <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
-    <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
-      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+      <menulink text="created by Tenebris Lab" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node4">
@@ -64,10 +62,9 @@
     </media>
     <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
     <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
-    <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
-      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+      <menulink text="created by Tenebris Lab" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node3">
@@ -99,10 +96,9 @@
     </media>
     <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
     <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
-    <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
-      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+      <menulink text="created by Tenebris Lab" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node5">
@@ -134,10 +130,9 @@
     </media>
     <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
     <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
-    <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
-      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+      <menulink text="created by Tenebris Lab" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node2">
@@ -168,10 +163,9 @@
     </media>
     <transition zoomfov="20" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomin="0" type="irisroundcenter" zoomoutpause="1" blendcolor="0x000000"/>
     <autorotate delay="5.00" noderandom="1" startloaded="0" enabled="1" returntohorizon="0.000" nodefilter="" speed="0.100" useanimation="0" nodedelay="0.00"/>
-    <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control sensitivity="8" invertwheel="0" invertcontrol="1" contextprojections="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0">
-      <menulink text="&lt;img src=&quot;images/image_4.png&quot; alt=&quot;Created by Tenebrislab&quot; height=&quot;36&quot; width=&quot;140&quot;>" url="https://tenebrislab.com"/>
+      <menulink text="created by Tenebris Lab" url="https://tenebrislab.com"/>
     </control>
   </panorama>
   <masternode>

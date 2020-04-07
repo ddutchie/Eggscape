@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: counter.ggsk
-// Generated 2020-04-06T18:17:47
+// Generated 2020-04-07T18:44:57
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_info_popup', 2, false);
@@ -3555,7 +3555,7 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._rectangle_1.onclick=function (e) {
-			player.openUrl("https:\/\/www.google.com","_self");
+			player.openUrl("https:\/\/waterfront.co.za\/enter-now\/","_self");
 		}
 		me._rectangle_1.onmouseover=function (e) {
 			me.elementMouseOver['rectangle_1']=true;
@@ -11732,7 +11732,7 @@ function pano2vrSkin(player,base) {
 	me.addSkin();
 	var style = document.createElement('style');
 	style.type = 'text/css';
-	style.appendChild(document.createTextNode('.ggskin { font-family: Gill-Sans ,sans-serif; font-size: 14px;} @font-face {font-family: "Gill-Sans"; src: url(gillsans.woff);} .info{ font-family: Gill-Sans; }'));
+	style.appendChild(document.createTextNode('.ggskin { font-family: Gill-Sans ,Gill Sans,Gill Sans MT,Calibri,sans-serif; font-size: 14px;} @font-face {font-family: "Gill-Sans"; src: url(assets/gillsans.woff);} .info{ font-family: Gill-Sans; }'));
 	document.head.appendChild(style);
 	me._screentint_eggfound.logicBlock_visible();
 	me._screentint_info.logicBlock_visible();
